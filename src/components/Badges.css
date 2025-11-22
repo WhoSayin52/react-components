@@ -1,0 +1,22 @@
+.badges-container {
+	gap: 2rem;
+}
+
+.badges-left {
+	justify-content: end;
+
+	gap: 0.5rem;
+}
+
+.badges-right {
+	gap: 1rem;
+}
+
+.badge-col {
+	gap: 0.5rem;
+}
+
+.badge-color-text {
+	font-size: 0.75rem;
+
+}

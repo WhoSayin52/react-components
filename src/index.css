@@ -1,4 +1,7 @@
-:root {}
+:root {
+
+  font-family: Inter, Verdana, Geneva, Tahoma, sans-serif;
+}
 
 *,
 *::before,
@@ -9,3 +12,19 @@
   padding: 0;
   border: none;
 }
+
+body {
+  padding: 2rem;
+
+  background-color: rgb(211, 211, 211);
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+

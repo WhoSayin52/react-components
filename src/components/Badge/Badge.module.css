@@ -1,0 +1,18 @@
+.badgeSquare,
+.badgePill {
+	padding: 0.125rem 0.75rem;
+
+	background-color: #F3F4F6;
+
+	color: #1F2937;
+	font-size: 0.875rem;
+	font-weight: 500;
+}
+
+.badgeSquare {
+	border-radius: 4px;
+}
+
+.badgePill {
+	border-radius: 16px;
+}
