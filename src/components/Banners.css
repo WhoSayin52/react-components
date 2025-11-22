@@ -1,0 +1,38 @@
+.banners-container {
+	justify-content: space-around;
+
+	gap: 1rem;
+}
+
+.banners-type-row {
+	padding-left: 5.3rem;
+
+	text-align: start;
+
+	justify-content: space-evenly;
+}
+
+.banners-type-row>* {
+	padding-left: 2.7rem;
+
+	flex: 1;
+}
+
+.banner-row {
+	flex: 2 0 auto;
+
+	gap: 3rem;
+}
+
+.banner-row-left {
+	width: 5rem;
+}
+
+.banner-row-right {
+	flex: 1;
+
+	justify-content: space-between;
+	align-items: center;
+
+	gap: 2.5rem;
+}

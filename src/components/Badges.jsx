@@ -16,18 +16,16 @@ export default function Badges() {
 
 				<div className="flex-row badges-right">
 					{colors.map((color) => (
-						<div className="flex-col badge-col">
-							<span className="badge-color-text" key={color}>{color}</span>
+						<div key={color} className="flex-col badge-col">
+							<span className="badge-color-text">{color}</span>
 
 							<Badge
-								key={color}
 								color={color}
 							>
 								Badge
 							</Badge>
 
 							<Badge
-								key={color}
 								variant="pill"
 								color={color}
 							>

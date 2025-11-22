@@ -13,12 +13,6 @@
   border: none;
 }
 
-body {
-  padding: 2rem;
-
-  background-color: rgb(211, 211, 211);
-}
-
 .flex-row {
   display: flex;
 }
@@ -28,3 +22,21 @@ body {
   flex-direction: column;
 }
 
+body {
+  padding: 3rem 0rem;
+
+  background-color: rgb(211, 211, 211);
+}
+
+section {
+  width: 80%;
+
+  margin: 0 auto 3rem;
+  padding: 2rem;
+  border: 1px solid grey;
+  border-radius: 14px;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
