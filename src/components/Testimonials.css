@@ -1,0 +1,27 @@
+.testimonial {
+	margin-top: 4rem;
+}
+
+.testimonial-content {
+	gap: 2rem;
+
+	color: #FFFFFF;
+}
+
+.testimonial-icon {
+	font-size: 3.5rem;
+	color: #FFFFFF40;
+}
+
+.testimonial-text {
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.testimonial-signature-name {
+	font-weight: 700;
+}
+
+.testimonial-signature-position {
+	font-weight: 500;
+}

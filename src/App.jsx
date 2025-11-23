@@ -1,6 +1,7 @@
 import Badges from "./components/Badges"
 import Banners from "./components/Banners"
 import Cards from "./components/Cards"
+import Testimonials from "./components/Testimonials"
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <Badges />
       <Banners />
       <Cards />
+      <Testimonials />
     </>
   )
 }
