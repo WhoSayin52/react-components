@@ -18,12 +18,12 @@ export default function Banners() {
 						<h3 className="banner-row-left">{status.type}</h3>
 						<div className="flex-row banner-row-right">
 							<Banner status={status.type}>
-								<Banner.Header>{status.title}</Banner.Header>
+								<Banner.Title>{status.title}</Banner.Title>
 								<Banner.Body>{status.text}</Banner.Body>
 							</Banner>
 
 							<Banner status={status.type}>
-								<Banner.Header>{status.title}</Banner.Header>
+								<Banner.Title>{status.title}</Banner.Title>
 							</Banner>
 						</div>
 					</div>

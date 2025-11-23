@@ -1,6 +1,6 @@
 import { createContext } from "react"
-import Header from "./Header"
-import Body from "./Body"
+import BannerTitle from "./BannerTitle"
+import BannerBody from "./BannerBody"
 import styles from "./Banner.module.css"
 
 
@@ -45,7 +45,7 @@ const statuses = {
 
 export default Banner;
 
-Banner.Header = Header;
-Banner.Body = Body;
+Banner.Title = BannerTitle;
+Banner.Body = BannerBody;
 
 <i class="fa-solid fa-circle-info"></i>

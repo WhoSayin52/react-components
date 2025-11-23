@@ -2,7 +2,7 @@ import { useContext } from "react"
 import { BannerContext } from "./Banner"
 import styles from "./Banner.module.css"
 
-export default function Body({ className = "", style = {}, children, ...rest }) {
+export default function BannerBody({ className = "", style = {}, children, ...rest }) {
 
 	const finalClassName = `${className || ""} ${styles.body}`.trim()
 	const status = useContext(BannerContext)
