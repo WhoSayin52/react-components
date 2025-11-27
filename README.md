@@ -9,7 +9,7 @@
 
 ## Description
 
-A React-based gallery showcasing several reusable UI components I’ve built, including:
+A React-based gallery showcasing several reusable UI components I’ve built:
 
 - **Badges**
 - **Banners**
@@ -27,4 +27,5 @@ Each component is displayed in a clean layout, making this project ideal for dem
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
 ## Screenshots
+
 
